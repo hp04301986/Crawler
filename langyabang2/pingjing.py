@@ -21,6 +21,17 @@ def mk_wordcloud():
     stopwords.add("因为")
     stopwords.add("看到")
     stopwords.add("还有")
+    stopwords.add("觉得")
+    stopwords.add("有点")
+    stopwords.add("这么")
+    stopwords.add("其实")
+    stopwords.add("一个")
+    stopwords.add("为什么")
+    stopwords.add("开始")
+    stopwords.add("不要")
+    stopwords.add("本来")
+    stopwords.add("虽然")
+    stopwords.add("出来")
     wc = WordCloud(
         width = 750,
         height = 1335,
